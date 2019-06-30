@@ -1,0 +1,4 @@
+(library
+ (name tap)
+ (libraries base stdio)
+ (preprocess (pps ppx_custom_printf ppx_js_style -annotated-ignores)))

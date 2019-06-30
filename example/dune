@@ -1,0 +1,4 @@
+(executables
+ (names test_int)
+ (libraries base stdio tap)
+ (preprocess (pps ppx_assert ppx_js_style -annotated-ignores)))
