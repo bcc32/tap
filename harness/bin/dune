@@ -1,0 +1,5 @@
+(executables
+ (names main)
+ (public_names tap)
+ (libraries base stdio tap_harness)
+ (preprocess (pps ppx_js_style -annotated-ignores)))

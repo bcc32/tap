@@ -1,0 +1,4 @@
+(library
+ (name tap_harness)
+ (libraries base stdio)
+ (preprocess (pps ppx_js_style -annotated-ignores ppx_sexp_conv ppx_sexp_message ppx_let)))
